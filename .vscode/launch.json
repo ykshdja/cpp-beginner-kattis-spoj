@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "g++ build and run",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build with gcc",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/yashkhanduja/Documents/cpp_foundation/src/Fundamental",
+      "program": "/Users/yashkhanduja/Documents/cpp_foundation/src/Fundamental/build/Debug/outDebug"
+    }
+  ]
+}

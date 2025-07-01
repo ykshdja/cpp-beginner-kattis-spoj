@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yashkhanduja/Documents/SPOJ_solutions/output/Iterated_sums'
+relocations:     []
+...
